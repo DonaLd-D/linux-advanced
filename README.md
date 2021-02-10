@@ -29,3 +29,23 @@ o	显示计时器
 ps -ef
 
 kill -9 PID
+
+
+
+### systemctl
+
+start	启动服务
+
+stop	停止服务
+
+restart	重启服务
+
+enable	设置开机启动
+
+disable	禁止开启启动
+
+status	查看服务状态
+
+daemon-reload	重载服务配置文件
+
+list-unit-files	列出所有服务
