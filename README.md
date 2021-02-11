@@ -77,3 +77,27 @@ sudo可以让普通用户拥有超级管理员的执行权限
 普通用户要进行经过超级管理员授权才能使用
 
 授权命令：visudo
+
+
+
+### 防火墙
+
+防火墙是借助硬件和软件对内外部网络环境的保护措施
+
+CentOS 7基于firewall实现应用层防火墙，CentOS 6基于iptables
+
+firewall-cmd是firewall的核心命令
+
+
+
+### linux shell 分类
+
+Bourne Shell		/usr/bin/sh或/bin/sh
+
+Bourne Again Shell		/bin/bash（默认）
+
+C Shell		/usr/bin/csh
+
+K Shell		/usr/bin/ksh
+
+Shell for Root		/sbin/sh
