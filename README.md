@@ -49,3 +49,31 @@ status	查看服务状态
 daemon-reload	重载服务配置文件
 
 list-unit-files	列出所有服务
+
+
+
+### 用户与用户组常用命令
+
+useradd	创建新用户
+
+passwd	修改密码
+
+usermod	修改用户信息/分配组（覆盖原组）
+
+groupadd	创建新的用户组
+
+chown	更改文件的属主或属组
+
+chmod	更改文件的访问权限
+
+newgrp	切换用户当前组
+
+
+
+### sudo
+
+sudo可以让普通用户拥有超级管理员的执行权限
+
+普通用户要进行经过超级管理员授权才能使用
+
+授权命令：visudo
